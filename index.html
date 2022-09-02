@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
@@ -21,12 +23,13 @@
     <!-- Nav Bar  -->
 
     <div class="navbar">
-      <img src="/images/logo.svg" alt="logo" class="logo-image">
+
+      <img src="/images/logo-top.svg" alt="logo" class="logo-image">
 
       <ul class="nav-link">
-        <li class="nav-item">Features</li>
-        <li class="nav-item">Team</li>
-        <li class="nav-item">Sign In</li>
+        <a href="#features"><li class="nav-item">Features</li></a>
+        <a href=""><li class="nav-item">Team</li></a>
+        <a href="#subscription"><li class="nav-item">Sign In</li></a>
       </ul>
       
     </div>
@@ -132,31 +135,38 @@
 
   <footer id="footer">
 
-    <div class="contact">
-
       <img src="images/logo.svg" alt="logo" class="footer-logo">
 
-      <img src="images/icon-phone.svg" alt="phone-icon">
-      <p>Phone: +1-543-123-4567</p>
-      <img src="images/icon-email.svg" alt="email-icon">
-      <p>example@fylo.com</p>
+      <div class="contacts">
+        <img src="images/icon-phone.svg" alt="phone-icon" class="contact-icon">
+        <p>Phone: +1-543-123-4567</p>
+      </div>
 
-      <ul>
+      <div class="contacts">
+        <img src="images/icon-email.svg" alt="email-icon" class="contact-icon">
+        <p>example@fylo.com</p>
+      </div>
+
+
+      <ul class="contact-items">
         <li>About Us</li>
         <li>Jobs</li>
         <li>Press</li>
         <li>Blog</li>
       </ul>
 
-      <ul>
+      <ul class="contact-items">
         <li>Contact Us</li>
         <li>Terms</li>
         <li>Privacy</li>
       </ul>
-    </div>
 
     <div class="social-links">
-      
+
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
     </div>    
 
   </footer>
@@ -167,5 +177,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer> -->
+  
 </body>
 </html>
