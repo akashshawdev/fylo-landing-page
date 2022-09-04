@@ -122,7 +122,7 @@ a:hover {
 
     /* Testimonial  */
 
-.testimonial {
+#testimonial {
     text-align: left;
     font-size: 12px;
     margin: 0 1.1rem 4rem;
@@ -313,7 +313,7 @@ a:hover {
         display: flex;
         justify-content: flex-start;
     }
-    .testimonial{
+    #testimonial{
         margin: 2rem 0 2rem;
         padding: 2rem;
         width: 50%;
